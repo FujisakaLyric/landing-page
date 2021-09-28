@@ -5,4 +5,4 @@ Done by FujisakaLyric
 ## Acknowledgements
 The Odin Project Logo - [The Odin Project](https://www.theodinproject.com/home/)  
 Fruit Icons - [Icongeek26](https://www.flaticon.com/authors/icongeek26/)  
-Quote Image - [Ro-Kyu-Bu! SS Episode 11](ro-kyu-bu.com/index.html/)
+Quote Image - [Ro-Kyu-Bu! SS Episode 11](http://www.ro-kyu-bu.com/index.html/)
