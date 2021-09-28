@@ -2,6 +2,11 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 /* Section 1 */
@@ -9,10 +14,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #1F2937;
     color: white;
-    padding: 8px 200px 0px;
+    padding: 8px 100px 0px;
+    margin: 0px 0px;
 }
 
 /* Section 1 - Header */
@@ -85,6 +91,10 @@ a:hover {
 .two {
     text-align: center;
     margin: 64px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .two-text {
@@ -118,7 +128,10 @@ a:hover {
 .three {
     background-color: #E5E7EB;
     padding: 64px 100px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .quote {
@@ -141,15 +154,19 @@ a:hover {
 .four {
     background-color: #3882F6;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 100px 500px;
+    justify-content: center;
+    margin: 100px auto;
     padding: 42px 100px;
+    border: 2px solid white;
+    border-radius: 12px;
+    column-gap: 64px;
 }
 
 .four-text {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     row-gap: 8px;
 }
 
@@ -171,6 +188,7 @@ a:hover {
     padding: 8px 32px;
     font-size: 18px;
     color: #F9FAF8;
+    margin-left: auto;
 }
 
 /* Footer */
@@ -181,4 +199,6 @@ a:hover {
     background-color: #1F2937;
     color: white;
     padding: 16px;
+    margin: 0px;
+    width: 100%;
 }
