@@ -19,6 +19,7 @@ body {
     color: white;
     padding: 8px 100px 0px;
     margin: 0px 0px;
+    box-sizing: border-box;
 }
 
 /* Section 1 - Header */
@@ -131,6 +132,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
     width: 100%;
 }
 
@@ -200,5 +202,6 @@ a:hover {
     color: white;
     padding: 16px;
     margin: 0px;
+    box-sizing: border-box;
     width: 100%;
 }
