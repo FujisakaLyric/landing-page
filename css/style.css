@@ -1,10 +1,10 @@
 /* style.css */
-
 body {
     display: flex;
     flex-direction: column;
 }
 
+/* Section 1 */
 .top {
     display: flex;
     flex-wrap: wrap;
@@ -15,6 +15,7 @@ body {
     padding: 8px 200px 0px;
 }
 
+/* Section 1 - Header */
 .header {
     font-size: 24px;
     color: #F9FAF8;
@@ -40,8 +41,10 @@ a:hover {
     color: red;
 }
 
+/* Section 1 - Hero */
 .one {
     display: flex;
+    justify-content: space-between;
     flex-basis: 100%;
     margin: 100px 0px;
 }
@@ -51,7 +54,7 @@ a:hover {
     flex-direction: column;
     align-items: flex-start;
     margin-right: 64px;
-    row-gap: 16px;
+    row-gap: 24px;
 }
 
 #one-header {
@@ -78,6 +81,99 @@ a:hover {
     color: #F9FAF8;
 }
 
+/* Section 2 */
+.two {
+    text-align: center;
+    margin: 64px 0px;
+}
+
+.two-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 64px;
+}
+
+.fruit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+  
+.fruit {
+    width: 200px;
+    font-size: 18px;
+    color: #1F2937;
+}   
+
+.fruit img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
+
+/* Section 3 */
+.three {
+    background-color: #E5E7EB;
+    padding: 64px 100px;
+    text-align: center;
+}
+
+.quote {
+    display: table;
+    margin: 0 auto;
+}
+
+.quote img {
+    border: 1px solid black;
+    margin-bottom: 24px;
+    vertical-align: top;
+}
+
+.quoter {
+    font-size: 18px;
+    text-align: right;
+}
+
+/* Section 4 */
+.four {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 500px;
+    padding: 42px 100px;
+}
+
+.four-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+#four-header {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#four-subtext {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.four-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 8px 32px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+/* Footer */
 .footer {
     display: flex;
     align-items: center;
